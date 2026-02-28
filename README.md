@@ -4,10 +4,10 @@ These masks were created for an fMRI study investigating the modulatory effects 
 
 # Atlases 
 Regions were defined using the Harvard–Oxford cortical and subcortical probabilistic atlases (maxprob-thr-25-1mm).
-These atlas files were obtained via Neurovault (gorgolewski et al, 2015).
-The Periacqueductal Gray (PAG) was defined using the Ascending Arousal Network (AAN) Atlas was used to define the Periacqueductal Gray (PAG; https://doi.org/10.5061/dryad.zw3r228d2). 
+These atlas files were obtained via Neurovault (Gorgolewski et al., 2015).
+The Periacqueductal Gray (PAG) was defined using the Ascending Arousal Network (AAN) Atlas, https://doi.org/10.5061/dryad.zw3r228d2). 
 
-
+# Pain Masks
 Three masks were generated: 
 - PainCore
 - PainAffective
