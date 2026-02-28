@@ -36,7 +36,7 @@ and represents an extended affective-cognitive threat-related network
 
 The PainGlobal mask was built from the union of both masks
 
-#PAG processing 
+# PAG processing 
 The Harvard–Oxford atlas does not contain a dedicated PAG mask. Therefore, PAG was obtained from the AAN atlas. This repository contains a .py script that processes the PAG mask as follows: 
 1. Loads the PAG mask from the AAN atlas (MNI152, 1mm space)
 2. Binarizes the mask (> 0 → 1)
@@ -45,25 +45,25 @@ The Harvard–Oxford atlas does not contain a dedicated PAG mask. Therefore, PAG
 5. Re-binarizes the mask after interpolation
 6. Saves the resampled mask using the Harvard–Oxford affine matrix and header
 
-#Resampling to Functional Contrast Space 
+# Resampling to Functional Contrast Space 
 Final network masks were resampled to match first-level SPM contrast images.
 Functional contrast properties:
 Image dimensions: 57 × 70 × 56
 Voxel size: 2.75 × 2.75 × 3.03 mm
 Nearest-neighbour interpolation was used to preserve binary mask structure.
 
-#Intended Use
+# Intended Use
 These masks were used to
 - Explore shock intensity effects:
 - Assess engagement of pain-related and threat (affective)-related neural systems
 - Exploratorily accompany whole-brain analyses
 
-#Note
+# Note
 - The HO and AAN atlas files are not present in this repository
 - Users should thus obtain:
   * Harvard–Oxford cortical and subcortical maxprob-thr25-1mm atlases (via Neurovault; Gorgolewski et al., 2015)
   * AAN atlas (Dryad DOI above) 
 
-#References 
+# References 
 Ascending Arousal Network Atlas dataset: https://doi.org/10.5061/dryad.zw3r228d2
 Gorgolewski, K. J., et al. (2015). NeuroVault.org: a web-based repository for collecting and sharing unthresholded statistical maps of the human brain. Frontiers in Neuroinformatics, 9, 8. https://doi.org/10.3389/fninf.2015.00008
