@@ -1,6 +1,6 @@
 # Pain-ROI-Masks-NOVEL
 This repository documents the creation of pain-related ROI masks used for small volume correction in second-level SPM25 (25.01.02) analyses. 
-These masks were created for an fMRI study investigating the modulatory effects of novelty on fear extinction (PI: Judith Schomaker). These masks were created for exploratory purposes and were used to examine whether shock intensity manipulation (control, low-intensity shock, high-intensity shock) elicited different activation within pain-related and affective/threat-related neural networks.  
+These masks were created for an fMRI study investigating the modulatory effects of novelty on fear extinction (PI: Dr. Judith Schomaker). These masks were created for exploratory purposes and were used to examine whether shock intensity manipulation (control, low-intensity shock, high-intensity shock) elicited different activation within pain-related and affective/threat-related neural networks.  
 
 # Atlases 
 Regions were defined using the Harvard–Oxford cortical and subcortical probabilistic atlases (maxprob-thr-25-1mm).
