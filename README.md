@@ -50,7 +50,19 @@ Final network masks were resampled to match first-level SPM contrast images.
 Functional contrast properties:
 Image dimensions: 57 × 70 × 56
 Voxel size: 2.75 × 2.75 × 3.03 mm
-Nearest-neighbour interpolation was used to preserve binary mask structure.
+Nearest-neighbour interpolation was used to preserve the binary mask structure.
+
+# Mask Output 
+Two versions of the masks are provided 
+1. HO-Space Masks
+Masks defined in HO grid space (MNI152, 1mm resolution, 182 x 218 x 182)
+These masks represent the anatomically defined network regions prior to functional resampling
+
+2. Contrast-SPace MAsks
+Masks resampled to match first-level SPM contrast images
+- 57 × 70 × 56 voxels
+- 2.75 × 2.75 × 3.03 mm voxel size
+These were used in second-level SPM analyses (SVC, pFWE<.05). Nearest-neighbour interpolation was used to preserve binary structure.
 
 # Intended Use
 These masks were used to
