@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these ROI masks or scripts in your research, please cite this repository."
+title: "Pain-ROI-Masks-NOVEL"
+version: "1.0.0"
+date-released: "2026-02-28"
+url: "https://github.com/leapagani03/Pain-ROI-Masks-NOVEL"
+
+authors:
+  - family-names: "Pagani"
+    given-names: "Lea"
